@@ -16,3 +16,12 @@ This is a Django-based REST API for an e-commerce platform that allows sellers t
 - Database: SQLite (default, can be swapped for PostgreSQL/MySQL)
 - Media Handling: Django's built-in file storage system
 - API Documentation: DRF Documentation
+
+### Setup and Installation
+### Prerequisites
+- Python 3.x
+- Django 4.x
+- Django REST Framework
+- djangorestframework-simplejwt
+### Steps to Install
+1. Clone the Repository:
