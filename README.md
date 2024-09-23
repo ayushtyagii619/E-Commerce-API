@@ -10,9 +10,9 @@ This is a Django-based REST API for an e-commerce platform that allows sellers t
 - Review System: Users can leave and update reviews on products.
 - Role-based Permissions: Only sellers can manage products, and only the reviewer can manage their reviews.
 
-###
 ## Tech Stack
-- Backend: Django, Django REST Framework
+- ### Backend:
+  Django, Django REST Framework
 - Authentication: JWT (JSON Web Tokens)
 - Database: SQLite (default, can be swapped for PostgreSQL/MySQL)
 - Media Handling: Django's built-in file storage system
