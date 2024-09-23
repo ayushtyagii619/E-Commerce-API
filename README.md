@@ -46,3 +46,28 @@ This is a Django-based REST API for an e-commerce platform that allows sellers t
 
 7. ### Access the Admin Panel:
    Visit http://127.0.0.1:8000/admin/ and log in with the superuser credentials.
+
+### API Endpoints
+### Authentication:
+- POST /api/register/: Register a new user.
+- POST /api/login/: Login to get a JWT token.
+- GET /api/profile/: Get the logged-in user's profile.
+- PUT /api/update/: Update user profile.
+### Products:
+- GET /api/products/: List all products.
+- GET /api/products/<int:id>/: Get details of a specific product.
+- POST /api/product/: Create a new product (Sellers only).
+- PUT /api/product/<int:id>/: Update product details (Sellers only).
+- DELETE /api/product/<int:id>/delete: Delete a product (Sellers only).
+### Cart:
+- GET /api/cart/: Get the current user's cart.
+- POST /api/cart/add/: Add a product to the cart.
+- PUT /api/cart/update/<int:id>/: Update product quantity in the cart.
+- DELETE /api/cart/delete/<int:id>/: Remove a product from the cart.
+### Orders:
+- POST /order/: Place an order with the current cart items.
+- PUT /api/orders/<int:id>/: Update order status (Admin/Seller only).
+### Reviews:
+- POST /reviews/<product_id>/: Leave a review for a product.
+- PUT /reviews/<id>/: Update a review (Only the reviewer).
+- DELETE /reviews/<id>/: Delete a review (Only the reviewer).
