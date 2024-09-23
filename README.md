@@ -25,24 +25,24 @@ This is a Django-based REST API for an e-commerce platform that allows sellers t
 - djangorestframework-simplejwt
 ### Steps to Install
 1. ### Clone the Repository:
-git clone https://github.com/your-repo/ecommerce-api.git
-cd ecommerce-api
+   git clone https://github.com/your-repo/ecommerce-api.git
+   cd ecommerce-api
 
 2. ### Create a Virtual Environment:
-python -m venv venv
-source venv/bin/activate   # On Windows, use: venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate   # On Windows, use: venv\Scripts\activate
 
 3. ### Install the Required Dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. ### Run Migrations:
-python manage.py migrate
+   python manage.py migrate
 
 5. ### Create a Superuser (Optional for Admin Access):
-python manage.py createsuperuser
+   python manage.py createsuperuser
 
 6. ### Run the Development Server:
-python manage.py runserver
+   python manage.py runserver
 
 7. ### Access the Admin Panel:
    Visit http://127.0.0.1:8000/admin/ and log in with the superuser credentials.
