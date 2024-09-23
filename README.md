@@ -44,4 +44,5 @@ python manage.py createsuperuser
 6. ### Run the Development Server:
 python manage.py runserver
 
-7. Access the Admin Panel: Visit http://127.0.0.1:8000/admin/ and log in with the superuser credentials.
+7. ### Access the Admin Panel:
+   Visit http://127.0.0.1:8000/admin/ and log in with the superuser credentials.
